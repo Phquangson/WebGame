@@ -20,6 +20,26 @@ namespace WebGameee.Controllers
         {
             return View();
         }
+        public ActionResult PageServices()
+        {
+            return View();
+        }
+        public ActionResult PageServicesDetails()
+        {
+            return View();
+        }
+        public ActionResult PageAbout()
+        {
+            return View();
+        }
+        public ActionResult PagePricing()
+        {
+            return View();
+        }
+        public ActionResult PageStore()
+        {
+            return View();
+        }
 
     }
 }

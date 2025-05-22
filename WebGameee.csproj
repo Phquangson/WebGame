@@ -379,6 +379,11 @@
     <Content Include="Views\Shared\_LayoutNavbar.cshtml" />
     <Content Include="Views\Home\PageGame.cshtml" />
     <Content Include="Views\Home\PageGameDetails.cshtml" />
+    <Content Include="Views\Home\PageServices.cshtml" />
+    <Content Include="Views\Home\PageServicesDetails.cshtml" />
+    <Content Include="Views\Home\PagePricing.cshtml" />
+    <Content Include="Views\Home\PageStore.cshtml" />
+    <Content Include="Views\Home\PageAbout.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
