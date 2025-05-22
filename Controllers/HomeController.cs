@@ -12,6 +12,10 @@ namespace WebGameee.Controllers
         {
             return View();
         }
+        public ActionResult PageGame()
+        {
+            return View();
+        }
 
     }
 }

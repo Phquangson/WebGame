@@ -375,8 +375,10 @@
     <Content Include="Views\Web.config" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
-    <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\PageHome.cshtml" />
+    <Content Include="Views\Shared\_LayoutNavbar.cshtml" />
+    <Content Include="Views\Home\PageGame.cshtml" />
+    <Content Include="Views\Shared\_LayoutHeader.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
