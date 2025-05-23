@@ -389,6 +389,11 @@
     <Content Include="Views\Home\PageCheckOut.cshtml" />
     <Content Include="Views\Home\PageCareer.cshtml" />
     <Content Include="Views\Home\PageCareerDetails.cshtml" />
+    <Content Include="Views\Home\PagePrivacy.cshtml" />
+    <Content Include="Views\Home\PageTerms.cshtml" />
+    <Content Include="Views\Home\PageBlog.cshtml" />
+    <Content Include="Views\Home\PageBlogDetails.cshtml" />
+    <Content Include="Views\Home\PageContact.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

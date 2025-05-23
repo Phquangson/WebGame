@@ -1,0 +1,512 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    @{
+        Layout = "~/Views/Shared/_LayoutNavbar.cshtml";
+    }
+</head>
+<body>
+    <!-- Banner-section start -->
+    <section class="banner-section inner-banner position-relative store">
+        <div class="shape-area">
+            <img src="~/assets/images/abs-items/bubble.png" class="shape-1" alt="icon">
+            <img src="~/assets/images/abs-items/ellipse-7.png" class="shape-2" alt="icon">
+        </div>
+        <div class="container position-relative">
+            <div class="banner-content row justify-content-between">
+                <div class="col-lg-6 col-md-10">
+                    <div class="main-content">
+                        <h2 class="visible-slowly-bottom display-four mb-6"><span>Blog Standard</span></h2>
+                        <p class="fs-four">Professional Game design and Development services since 1995</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-10 d-grid align-items-end justify-content-end">
+                    <div class="breadcrumb-area position-absolute end-0 bottom-0">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb m-0 py-3 px-8 fs-six d-flex align-items-end justify-content-end">
+                                <li class="breadcrumb-item p-0 m-0"><a href="@Url.Action("PageHome","Home")">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Blog Standard</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Banner-section end -->
+    <!-- Blog Section start -->
+    <section class="recently-completed blogs blog-section">
+        <div class="container pt-120">
+            <div class="row">
+                <div class="col-xl-8 col-lg-7 service-details">
+                    <div class="single-box">
+                        <div class="position-relative d-grid align-items-center">
+                            <div class="img-box">
+                                <img src="~/assets/images/blogs-img-1.png" class="w-100" alt="Image">
+                            </div>
+                            <div class="article-info pt-6 pb-4 d-flex gap-5">
+                                <div class="d-flex gap-1 single">
+                                    <div class="icon-wrap d-flex align-items-end">
+                                        <i class="fa-solid fa-clock"></i>
+                                    </div>
+                                    <span>15 Min</span>
+                                </div>
+                                <div class="d-flex gap-1 single ps-5">
+                                    <div class="icon-wrap d-flex align-items-end">
+                                        <i class="fa-solid fa-eye"></i>
+                                    </div>
+                                    <span>55</span>
+                                </div>
+                                <div class="d-flex gap-1 single ps-5">
+                                    <div class="icon-wrap d-flex align-items-end">
+                                        <i class="fa-solid fa-user"></i>
+                                    </div>
+                                    <span>By Admin</span>
+                                </div>
+                            </div>
+                            <p>
+                                When you think about your favourite video games, what stands out? Is it the
+                                gameplay, the graphics, or maybe the story? Chances are, the music and sound
+                                effects played a big role in creating the overall experience. In fact, music and
+                                sound effects are an essential component of game design, helping to set the
+                                tone, build immersion, and create memorable moments.Here are just a few ways
+                                music and sound effects impact game design:
+                            </p>
+                        </div>
+                    </div>
+                    <div class="single-content row align-items-center mb-5">
+                        <div class="col-lg-6">
+                            <h4 class="mb-6">Music and sound effects:</h4>
+                            <ul class="ms-10 mb-8 d-grid gap-3 list fs-seven">
+                                <li class="d-flex align-items-center">Setting the Tone</li>
+                                <li class="d-flex align-items-center">Building Immersion</li>
+                                <li class="d-flex align-items-center">Creating Memorable Moments</li>
+                                <li class="d-flex align-items-center">Enhancing Gameplay</li>
+                                <li class="d-flex align-items-center">Creating Memorable Moments</li>
+                                <li class="d-flex align-items-center">Building Immersion</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="img-area">
+                                <img src="~/assets/images/blog-img-1.png" alt="Image">
+                            </div>
+                        </div>
+                    </div>
+                    <p>
+                        In order to create effective music and sound effects for a game, designers need to
+                        consider a few key factors. For example, the tone of the game, the intended emotions or
+                        reactions of players, and the overall gameplay mechanics will all influence the choices
+                        made for music and sound effects. Additionally, designers need to consider technical
+                        factors like file size and compatibility with different devices.
+                    </p>
+                    <div class="single-box quote mt-5 p-5 p-sm-10 alt-bg">
+                        <div class="icon-box">
+                            <i class="material-symbols-outlined mat-icon display-one">format_quote</i>
+                        </div>
+                        <p class="fs-four fw-bold">
+                            "Good game design is not about graphics, story or sound; it's
+                            about how the player interacts with the game."
+                        </p>
+                        <span class="d-center fw-bolder mt-4">Sid Meier</span>
+                    </div>
+                    <p>
+                        Ultimately, music and sound effects are a crucial aspect of game design that can make or
+                        break the player experience. By carefully selecting and creating the right sounds,
+                        designers can create immersive, engaging games that players will remember long after
+                        they've put down the controller.
+                    </p>
+                    <div class="single-box tag-area py-5 d-center flex-wrap gap-3 justify-content-between mt-5">
+                        <p>Tag: <span>Game Art, Game Sound, 3D Characters,</span></p>
+                        <div class="d-flex share align-items-center gap-4">
+                            <div class="icon-box d-flex">
+                                <i class="fa-solid fa-share-nodes"></i>
+                            </div>
+                            <ul class="d-flex gap-4 social-area">
+                                <li>
+                                    <a href="https://www.facebook.com" aria-label="Facebook" class="d-center">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com" aria-label="Instagram" class="d-center">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com" aria-label="Linkedin" class="d-center">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com" aria-label="Twitter" class="d-center">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="comments-area mt-5">
+                        <div class="single-comment-area">
+                            <h3 class="visible-slowly-bottom mb-5">2 Comments</h3>
+                            <div class="single-box p-3 p-sm-6 box-style box-second d-flex flex-wrap flex-sm-nowrap gap-5">
+                                <div class="img-area">
+                                    <img src="~/assets/images/comment-img-1.png" class="max-un" alt="Image">
+                                </div>
+                                <div class="info-area">
+                                    <div class="title-area d-flex align-items-center flex-wrap gap-2">
+                                        <h5>Cameron Williamson</h5>
+                                        <span>10 Jan, 2023 . 4:00 Pm</span>
+                                    </div>
+                                    <p class="py-5">
+                                        All the Lorem Ipsum generators on the Internet tend to
+                                        repeat predefined chunks as necessary, making this the first true
+                                        generator on the Internet. It uses a dictionary of over 200 Latin words,
+                                        combined with a handful of model sentence structures, to generate Lorem
+                                        Ipsum which looks reasonable.
+                                    </p>
+                                    <button class="box-style reply-btn btn-box btn-cmd">Reply</button>
+                                    <form action="#" class="comment-form mt-5">
+                                        <div class="d-flex gap-3">
+                                            <input placeholder="Write a comment.." class="py-3">
+                                            <button class="box-style btn-box px-2 px-sm-5 px-lg-6">
+                                                <i class="material-symbols-outlined mat-icon m-0 fs-xxl">
+                                                    near_me
+                                                </i>
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="single-box p-3 p-sm-6 box-style box-second d-flex flex-wrap flex-sm-nowrap gap-5">
+                                <div class="img-area">
+                                    <img src="~/assets/images/comment-img-2.png" class="max-un" alt="Image">
+                                </div>
+                                <div class="info-area">
+                                    <div class="title-area d-flex align-items-center flex-wrap gap-2">
+                                        <h5>Theresa Webb</h5>
+                                        <span>10 Jan, 2023 . 4:00 Pm</span>
+                                    </div>
+                                    <p class="py-5">
+                                        All the Lorem Ipsum generators on the Internet tend to
+                                        repeat predefined chunks as necessary, making this the first true
+                                        generator on the Internet. It uses a dictionary of over 200 Latin words,
+                                        combined with a handful of model sentence structures, to generate Lorem
+                                        Ipsum which looks reasonable.
+                                    </p>
+                                    <button class="box-style reply-btn btn-box btn-cmd">Reply</button>
+                                    <form action="#" class="comment-form mt-5">
+                                        <div class="d-flex gap-3">
+                                            <input placeholder="Write a comment.." class="py-3">
+                                            <button class="box-style btn-box px-2 px-sm-5 px-lg-6">
+                                                <i class="material-symbols-outlined mat-icon m-0 fs-xxl">
+                                                    near_me
+                                                </i>
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="add-review p-3 p-sm-6">
+                                <h3 class="visible-slowly-bottom mb-6">Leave a Comments</h3>
+                                <form action="#" class="comments-form p-3 p-sm-5">
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div class="single-input">
+                                                <label for="name">Name</label>
+                                                <input type="text" id="name" placeholder="Enter Your Name"
+                                                       autocomplete="off">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12">
+                                            <div class="single-input">
+                                                <label for="email">Email</label>
+                                                <input type="text" id="email" placeholder="Enter Your Email"
+                                                       autocomplete="off">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12">
+                                            <div class="single-input">
+                                                <label for="message">Leave us a message</label>
+                                                <textarea id="message" cols="30" rows="5"
+                                                          placeholder="Please type your Message here..."></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="btn-area">
+                                        <div class="btn-area mt-3 mt-sm-4">
+                                            <button class="box-style text-nowrap btn-box">
+                                                Send Message
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-5 mt-8 mt-lg-0 service-details">
+                    <div class="d-grid gap-5 cus-overflow cus-scrollbar side-wrapper">
+                        <div class="d-flex flex-column gap-6">
+                            <div class="sidebar-area p-5">
+                                <h3 class="visible-slowly-bottom mb-6">Search</h3>
+                                <div class="input-area mt-6 p-1 d-flex align-items-center">
+                                    <input type="text" class="ps-3" placeholder="Search">
+                                    <div class="btn-area">
+                                        <button class="box-style btn-box border-re p-2">
+                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sidebar-area p-5">
+                                <h3 class="visible-slowly-bottom mb-6">Category</h3>
+                                <ul class="underwriters d-grid gap-3">
+                                    <li>
+                                        <a href="javascript:void(0)" class="d-center justify-content-between">
+                                            <div class="d-flex gap-1">
+                                                <div class="icon-wrap">
+                                                    <i class="fa-solid fa-angles-right"></i>
+                                                </div>
+                                                <span>Game Development</span>
+                                            </div>
+                                            <div class="right-area">
+                                                <span>(08)</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)" class="d-center justify-content-between">
+                                            <div class="d-flex gap-1">
+                                                <div class="icon-wrap">
+                                                    <i class="fa-solid fa-angles-right"></i>
+                                                </div>
+                                                <span>Game Art</span>
+                                            </div>
+                                            <div class="right-area">
+                                                <span>(08)</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)" class="d-center justify-content-between">
+                                            <div class="d-flex gap-1">
+                                                <div class="icon-wrap">
+                                                    <i class="fa-solid fa-angles-right"></i>
+                                                </div>
+                                                <span>Game Animation</span>
+                                            </div>
+                                            <div class="right-area">
+                                                <span>(07)</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)" class="d-center justify-content-between">
+                                            <div class="d-flex gap-1">
+                                                <div class="icon-wrap">
+                                                    <i class="fa-solid fa-angles-right"></i>
+                                                </div>
+                                                <span>Game QA Testing</span>
+                                            </div>
+                                            <div class="right-area">
+                                                <span>(06)</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)" class="d-center justify-content-between">
+                                            <div class="d-flex gap-1">
+                                                <div class="icon-wrap">
+                                                    <i class="fa-solid fa-angles-right"></i>
+                                                </div>
+                                                <span>Game UI/UX</span>
+                                            </div>
+                                            <div class="right-area">
+                                                <span>(04)</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)" class="d-center justify-content-between">
+                                            <div class="d-flex gap-1">
+                                                <div class="icon-wrap">
+                                                    <i class="fa-solid fa-angles-right"></i>
+                                                </div>
+                                                <span>Out Staffing</span>
+                                            </div>
+                                            <div class="right-area">
+                                                <span>(04)</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="sidebar-area p-5">
+                                <h3 class="visible-slowly-bottom mb-6">Related Articles</h3>
+                                <div class="cus-mar">
+                                    <div class="single-box d-center justify-content-start gap-5">
+                                        <div class="img-area">
+                                            <img src="~/assets/images/article-img-1.png" alt="Image">
+                                        </div>
+                                        <div class="info-area">
+                                            <a href="@Url.Action("PageBlog","Home")">
+                                                <h6>Tips for Creating Engaging Game Characters</h6>
+                                            </a>
+                                            <div class="article-info pt-3 d-flex gap-5">
+                                                <div class="d-flex gap-1 single">
+                                                    <div class="icon-wrap d-flex align-items-end">
+                                                        <i class="fa-solid fa-clock"></i>
+                                                    </div>
+                                                    <span>15 Min</span>
+                                                </div>
+                                                <div class="d-flex gap-1 single ps-5">
+                                                    <div class="icon-wrap d-flex align-items-end">
+                                                        <i class="fa-solid fa-eye"></i>
+                                                    </div>
+                                                    <span>55</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="single-box d-center justify-content-start gap-5">
+                                        <div class="img-area">
+                                            <img src="~/assets/images/article-img-2.png" alt="Image">
+                                        </div>
+                                        <div class="info-area">
+                                            <a href="@Url.Action("PageBlog","Home")">
+                                                <h6>The Pros and Cons of Different Game Engines</h6>
+                                            </a>
+                                            <div class="article-info pt-3 d-flex gap-5">
+                                                <div class="d-flex gap-1 single">
+                                                    <div class="icon-wrap d-flex align-items-end">
+                                                        <i class="fa-solid fa-clock"></i>
+                                                    </div>
+                                                    <span>15 Min</span>
+                                                </div>
+                                                <div class="d-flex gap-1 single ps-5">
+                                                    <div class="icon-wrap d-flex align-items-end">
+                                                        <i class="fa-solid fa-eye"></i>
+                                                    </div>
+                                                    <span>55</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="single-box d-center justify-content-start gap-5">
+                                        <div class="img-area">
+                                            <img src="~/assets/images/article-img-3.png" alt="Image">
+                                        </div>
+                                        <div class="info-area">
+                                            <a href="@Url.Action("PageBlog","Home")">
+                                                <h6>The Role of Storytelling in Game Design</h6>
+                                            </a>
+                                            <div class="article-info pt-3 d-flex gap-5">
+                                                <div class="d-flex gap-1 single">
+                                                    <div class="icon-wrap d-flex align-items-end">
+                                                        <i class="fa-solid fa-clock"></i>
+                                                    </div>
+                                                    <span>15 Min</span>
+                                                </div>
+                                                <div class="d-flex gap-1 single ps-5">
+                                                    <div class="icon-wrap d-flex align-items-end">
+                                                        <i class="fa-solid fa-eye"></i>
+                                                    </div>
+                                                    <span>55</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sidebar-area p-5">
+                                <h3 class="visible-slowly-bottom mb-6">Follow Us</h3>
+                                <ul class="d-flex gap-4 social-area">
+                                    <li>
+                                        <a href="https://www.facebook.com" aria-label="Facebook" class="d-center">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.instagram.com" aria-label="Instagram" class="d-center">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.linkedin.com" aria-label="Linkedin" class="d-center">
+                                            <i class="fab fa-linkedin-in"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://twitter.com" aria-label="Twitter" class="d-center">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="sidebar-area py-8 py-sm-15 text-center p-5">
+                                <h5 class="mb-4"><span>Let’s Work Together</span></h5>
+                                <h3 class="visible-slowly-bottom mb-8">Game Studio Services Agency</h3>
+                                <div class="btn-area alt-bg">
+                                    <a href="@Url.Action("PageContact","Home")" class="box-style btn-box">
+                                        Contact us
+                                        <i class="material-symbols-outlined mat-icon fs-five">chevron_right</i>
+                                    </a>
+                                </div>
+                                <a href="javascript:void(0)" class="d-center mt-8 call-number gap-2">
+                                    <i class="fa-solid fa-phone"></i>
+                                    +000 (123) 456 88
+                                </a>
+                            </div>
+                            <div class="sidebar-area p-5">
+                                <h3 class="visible-slowly-bottom mb-6">Popular Tags</h3>
+                                <ul class="tags d-flex flex-wrap gap-2">
+                                    <li class="box-style btn-box">
+                                        <a href="javascript:void(0)">App</a>
+                                    </li>
+                                    <li class="box-style btn-box">
+                                        <a href="javascript:void(0)">Game App</a>
+                                    </li>
+                                    <li class="box-style btn-box">
+                                        <a href="javascript:void(0)">Game Art</a>
+                                    </li>
+                                    <li class="box-style btn-box">
+                                        <a href="javascript:void(0)">Game Animation</a>
+                                    </li>
+                                    <li class="box-style btn-box">
+                                        <a href="javascript:void(0)">Game QA Testing</a>
+                                    </li>
+                                    <li class="box-style btn-box">
+                                        <a href="javascript:void(0)">Unity Development</a>
+                                    </li>
+                                    <li class="box-style btn-box">
+                                        <a href="javascript:void(0)">3D ART</a>
+                                    </li>
+                                    <li class="box-style btn-box">
+                                        <a href="javascript:void(0)">3D Game Modeling</a>
+                                    </li>
+                                    <li class="box-style btn-box">
+                                        <a href="javascript:void(0)">3D Animation</a>
+                                    </li>
+                                    <li class="box-style btn-box">
+                                        <a href="javascript:void(0)">Environment Design</a>
+                                    </li>
+                                    <li class="box-style btn-box">
+                                        <a href="javascript:void(0)">3D Characters</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blog Section end -->
+</body>
+</html>

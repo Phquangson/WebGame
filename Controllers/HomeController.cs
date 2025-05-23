@@ -60,6 +60,27 @@ namespace WebGameee.Controllers
         {
             return View();
         }
+        public ActionResult PagePrivacy()
+        {
+            return View();
+        }
+        public ActionResult PageTerms()
+        {
+            return View();
+        }
+        public ActionResult PageBlog()
+        {
+            return View();
+        }
+        public ActionResult PageBlogDetails ()
+        {
+            return View();
+        }
+        public ActionResult PageContact()
+        {
+            return View();
+        }
+
 
     }
 }
