@@ -1,0 +1,302 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    @{
+        Layout = "~/Views/Shared/_LayoutNavbar.cshtml";
+    }
+</head>
+<body>
+    <!-- Banner-section start -->
+    <section class="banner-section inner-banner position-relative about pricing-plan">
+        <div class="shape-area">
+            <img src="assets/images/abs-items/bubble.png" class="shape-1" alt="icon">
+            <img src="assets/images/abs-items/ellipse-7.png" class="shape-2" alt="icon">
+        </div>
+        <div class="container position-relative">
+            <div class="banner-content row justify-content-between">
+                <div class="col-lg-6 col-md-10">
+                    <div class="main-content">
+                        <h2 class="visible-slowly-bottom display-four mb-6"><span>Store</span></h2>
+                        <p class="fs-four">Play · Improve · Win</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-10 d-grid align-items-end justify-content-end">
+                    <div class="breadcrumb-area position-absolute end-0 bottom-0">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb m-0 py-3 px-8 fs-six d-flex align-items-end justify-content-end">
+                                <li class="breadcrumb-item p-0 m-0"><a href="@Url.Action("PageHome","Home")">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Store</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Banner-section end -->
+    <!-- Shop Details start -->
+    <div class="shop-details">
+        <div class="container pt-120">
+            <div class="shop-details-content">
+                <div class="row justify-content-center">
+                    <div class="col-xl-6 col-md-8">
+                        <div class="slider-for">
+                            <div class="single-slide">
+                                <img src="assets/images/shop-img-1.png" alt="avatar">
+                            </div>
+                            <div class="single-slide">
+                                <img src="assets/images/shop-img-2.png" alt="avatar">
+                            </div>
+                            <div class="single-slide">
+                                <img src="assets/images/shop-img-3.png" alt="avatar">
+                            </div>
+                            <div class="single-slide">
+                                <img src="assets/images/shop-img-4.png" alt="avatar">
+                            </div>
+                        </div>
+                        <div class="slider-nav mt-4 px-8 px-sm-15">
+                            <div class="single-slide">
+                                <div class="slide">
+                                    <img src="assets/images/shop-img-1.png" alt="avatar">
+                                </div>
+                            </div>
+                            <div class="single-slide">
+                                <div class="slide">
+                                    <img src="assets/images/shop-img-2.png" alt="avatar">
+                                </div>
+                            </div>
+                            <div class="single-slide">
+                                <div class="slide">
+                                    <img src="assets/images/shop-img-3.png" alt="avatar">
+                                </div>
+                            </div>
+                            <div class="single-slide">
+                                <div class="slide">
+                                    <img src="assets/images/shop-img-4.png" alt="avatar">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-md-8 mt-7 mt-xl-0">
+                        <form action="@Url.Action("PageCart","Home")">
+                            <h2 class="visible-slowly-bottom mb-4">Stickers</h2>
+                            <p>Product Id: 04.02.039.68</p>
+                            <div class="star-item my-4 d-flex gap-4 align-items-center">
+                                <div class="star-area">
+                                    <a href="javascript:void(0)"><i class="fas fa-star"></i></a>
+                                    <a href="javascript:void(0)"><i class="fas fa-star"></i></a>
+                                    <a href="javascript:void(0)"><i class="fas fa-star"></i></a>
+                                    <a href="javascript:void(0)"><i class="fas fa-star"></i></a>
+                                    <a href="javascript:void(0)"><i class="fas fa-star"></i></a>
+                                </div>
+                                <p class="fs-seven">2 write a review</p>
+                            </div>
+                            <p>Availability: 29</p>
+                            <div class="price-area py-3 d-flex my-5 gap-3 align-items-center">
+                                <span class="fs-four cur-price">$200.00</span>
+                                <span class="fs-five"><del>$300.00</del></span>
+                            </div>
+                            <p class="description my-6">
+                                Aliquam hendrerit a augue insuscipit. Etiam aliquam
+                                massa quis des mauris commodo venenatis ligula commodo leez sed blandit
+                                convallis dignissim onec vel pellentesque neque.
+                            </p>
+                            <div class="d-flex align-items-center gap-3">
+                                <p>Quantity:</p>
+                                <div class="qtySelector px-4 px-3 d-inline-flex align-items-center text-center">
+                                    <i class="fas fa-minus d-center decreaseQty"></i>
+                                    <input type="text" class="qtyValue text-center m-0 xxltxt" value="1"
+                                           autocomplete="off">
+                                    <i class="fas fa-plus d-center increaseQty"></i>
+                                </div>
+                            </div>
+                            <div class="btn-area d-flex gap-3 my-7 alt-bg">
+                                <button class="box-style btn-box second-btn d-center">
+                                    <a href="@Url.Action("PageCart","Home")" style="color: #fff;">  Add to Cart</a>
+
+                                </button>
+                                <a href="@Url.Action("PageCart","Home")" class="box-style btn-box d-center gap-2">
+                                    Buy it Now
+                                </a>
+                            </div>
+                            <div class="share-link d-flex gap-3 align-items-center">
+                                <p>Share: </p>
+                                <ul class="d-flex gap-4 social-area">
+                                    <li>
+                                        <a href="https://www.facebook.com" aria-label="Facebook" class="d-center">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.instagram.com" aria-label="Instagram" class="d-center">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.linkedin.com" aria-label="Linkedin" class="d-center">
+                                            <i class="fab fa-linkedin-in"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://twitter.com" aria-label="Twitter" class="d-center">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="product-about mt-60">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="shop-section d-center justify-content-start my-8">
+                            <ul class="nav btn-area flex-nowrap gap-5 alt-bg" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <a href="@Url.Action("PageShopDetails","Home")"
+                                       class="box-style btn-box d-center active">Description</a>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <a href="@Url.Action("PageShopDetails","Home")"
+                                       class="box-style btn-box d-center second-btn">Review</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-7">
+                                <div class="tab-content pb-120">
+                                    <div class="description">
+                                        <h4 class="mb-4">Description</h4>
+                                        <div class="d-grid gap-6">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, cibo mundi ea duo, vim exerci
+                                                phaedrum. There are many variations of passages of Lorem Ipsum
+                                                available, but the majority have alteration in some injected or
+                                                words which don't look even slightly believable. If you are
+                                                going to use a passage of Lorem Ipsum, you need to be sure there
+                                                isn't anything embarrang hidden in the middle of text.
+                                            </p>
+                                            <ul class="d-grid gap-2">
+                                                <li class="d-flex align-items-center gap-2">
+                                                    <i class="material-symbols-outlined mat-icon">arrow_right_alt</i>
+                                                    <span>Nam at elit nec neque suscipit gravida.</span>
+                                                </li>
+                                                <li class="d-flex align-items-center gap-2">
+                                                    <i class="material-symbols-outlined mat-icon">arrow_right_alt</i>
+                                                    <span>Aenean egestas orci eu maximus tincidunt.</span>
+                                                </li>
+                                                <li class="d-flex align-items-center gap-2">
+                                                    <i class="material-symbols-outlined mat-icon">arrow_right_alt</i>
+                                                    <span>Curabitur vel turpis id tellus cursus laoreet.</span>
+                                                </li>
+                                            </ul>
+                                            <p>
+                                                All the Lorem Ipsum generators on the Internet tend to repeat
+                                                predefined chunks as necessary, making this the first true
+                                                generator on the Internet. It uses a dictionary of over 200
+                                                Latin words, combined with a handful of model sentence
+                                                structures, to generate Lorem Ipsum which looks reasonable.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Shop Details end -->
+    <!-- Related Products start -->
+    <section class="store related-products pt-120 pb-120">
+        <div class="container">
+            <div class="row cus-mar align-items-stretch section-text">
+                <div class="col-lg-8">
+                    <div class="head-content">
+                        <h2>Related Products</h2>
+                    </div>
+                </div>
+                <div class="related-products-carousel mt-8 mt-sm-15">
+                    <div class="single-slide">
+                        <div class="single-box box-style box-first p-3 p-sm-6 d-flex flex-row gap-4 gap-sm-6">
+                            <div class="icon-area">
+                                <img src="assets/images/store-img-1.png" alt="Image">
+                            </div>
+                            <div class="text-area text-start">
+                                <h5 class="mb-2">Forza Horizon 3</h5>
+                                <p>$ 150.00 USD</p>
+                                <div class="btn-area mt-4 alt-bg">
+                                    <a href="@Url.Action("PageCart","Home")" class="box-style btn-box d-center gap-2">
+                                        Add to Cart
+                                        <i class="fa-solid fa-bag-shopping"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-slide">
+                        <div class="single-box box-style box-first p-3 p-sm-6 d-flex flex-row gap-4 gap-sm-6">
+                            <div class="icon-area">
+                                <img src="assets/images/store-img-2.png" alt="Image">
+                            </div>
+                            <div class="text-area text-start">
+                                <h5 class="mb-2">CALL of DUTY</h5>
+                                <p>$ 150.00 USD</p>
+                                <div class="btn-area mt-4 alt-bg">
+                                    <a href="@Url.Action("PageCart","Home")" class="box-style btn-box d-center gap-2">
+                                        Add to Cart
+                                        <i class="fa-solid fa-bag-shopping"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-slide">
+                        <div class="single-box box-style box-first p-3 p-sm-6 d-flex flex-row gap-4 gap-sm-6">
+                            <div class="icon-area">
+                                <img src="assets/images/store-img-3.png" alt="Image">
+                            </div>
+                            <div class="text-area text-start">
+                                <h5 class="mb-2">Stickers</h5>
+                                <p>$ 150.00 USD</p>
+                                <div class="btn-area mt-4 alt-bg">
+                                    <a href="@Url.Action("PageCart","Home")" class="box-style btn-box d-center gap-2">
+                                        Add to Cart
+                                        <i class="fa-solid fa-bag-shopping"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-slide">
+                        <div class="single-box box-style box-first p-3 p-sm-6 d-flex flex-row gap-4 gap-sm-6">
+                            <div class="icon-area">
+                                <img src="assets/images/store-img-4.png" alt="Image">
+                            </div>
+                            <div class="text-area text-start">
+                                <h5 class="mb-2">Accessories</h5>
+                                <p>$ 150.00 USD</p>
+                                <div class="btn-area mt-4 alt-bg">
+                                    <a href="@Url.Action("PageCart","Home")" class="box-style btn-box d-center gap-2">
+                                        Add to Cart
+                                        <i class="fa-solid fa-bag-shopping"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Related Products end -->
+</body>
+</html>

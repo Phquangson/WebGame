@@ -1,0 +1,231 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    @{
+        Layout = "~/Views/Shared/_LayoutNavbar.cshtml";
+    }
+</head>
+<body>
+    <!-- Banner-section start -->
+    <section class="banner-section inner-banner position-relative store">
+        <div class="shape-area">
+            <img src="assets/images/abs-items/bubble.png" class="shape-1" alt="icon">
+            <img src="assets/images/abs-items/ellipse-7.png" class="shape-2" alt="icon">
+        </div>
+        <div class="container position-relative">
+            <div class="banner-content row justify-content-between">
+                <div class="col-lg-6 col-md-10">
+                    <div class="main-content">
+                        <h2 class="visible-slowly-bottom display-four mb-4"><span>Cart</span></h2>
+                        <p class="fs-four">
+                            Please check your shopping cart to review
+                            your selected products.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-10 d-grid align-items-end justify-content-end">
+                    <div class="breadcrumb-area position-absolute end-0 bottom-0">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb m-0 py-3 px-8 fs-six d-flex align-items-end justify-content-end">
+                                <li class="breadcrumb-item p-0 m-0"><a href="@Url.Action("PageHome","Home")">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Cart</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Banner-section end -->
+    <!-- Cart Details start -->
+    <div class="shop-details cart-details">
+        <div class="container border-0 pt-120 pb-120">
+            <div class="row justify-content-center">
+                <div class="col-xl-8 col-md-8">
+                    <div class="head-area">
+                        <h2 class="visible-slowly-bottom mb-7">Shopping Cart</h2>
+                    </div>
+                    <div class="shopping-cart nav-items-wrapper d-grid gap-3 py-5 mb-6">
+                        <div class="single-box box-style box-first m-0 p-3 p-sm-6">
+                            <div class="d-flex gap-2 justify-content-between">
+                                <div class="content-box d-flex gap-3 gap-sm-4">
+                                    <div class="icon-box d-inline-flex d-center">
+                                        <img src="assets/images/product-img-1.png" class="max-un" alt="icon">
+                                    </div>
+                                    <div class="info-box d-flex w-100 flex-column justify-content-between">
+                                        <div class="top-area">
+                                            <a href="@Url.Action("PageShopDetails","Home")">
+                                                <h5>Accessories</h5>
+                                            </a>
+                                            <div class="price-area border-0 mt-2 d-flex gap-2 align-items-center">
+                                                <span class="fs-six cur-price">$200.00</span>
+                                                <span class="fs-seven"><del>$300.00</del></span>
+                                            </div>
+                                        </div>
+                                        <div class="quantity-area">
+                                            <div class="d-flex align-items-center">
+                                                <div class="qtySelector py-1 d-inline-flex align-items-center">
+                                                    <i class="fas fa-minus d-center decreaseQty" style="align-content: center; padding-left: 7px"></i>
+                                                    <input type="text" class="qtyValue text-center m-0 xxltxt"
+                                                           value="4">
+                                                    <i class="fas fa-plus d-center increaseQty" style="align-content: center; padding-left: 7px"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right-area d-flex flex-column align-items-end justify-content-between">
+                                    <button type="button" class="end-area">
+                                        <i class="fa-solid fa-trash"></i>
+                                    </button>
+                                    <span class="fs-seven">$300.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-box box-style box-first m-0 p-3 p-sm-6">
+                            <div class="d-flex gap-2 justify-content-between">
+                                <div class="content-box d-flex gap-3 gap-sm-4">
+                                    <div class="icon-box d-inline-flex d-center">
+                                        <img src="assets/images/product-img-1.png" class="max-un" alt="icon">
+                                    </div>
+                                    <div class="info-box d-flex w-100 flex-column justify-content-between">
+                                        <div class="top-area">
+                                            <a href="@Url.Action("PageShopDetails","Home")">
+                                                <h5>Accessories</h5>
+                                            </a>
+                                            <div class="price-area border-0 mt-2 d-flex gap-2 align-items-center">
+                                                <span class="fs-six cur-price">$200.00</span>
+                                                <span class="fs-seven"><del>$300.00</del></span>
+                                            </div>
+                                        </div>
+                                        <div class="quantity-area">
+                                            <div class="d-flex align-items-center">
+                                                <div class="qtySelector py-1 d-inline-flex align-items-center">
+                                                    <i class="fas fa-minus d-center decreaseQty" style="align-content: center; padding-left: 7px"></i>
+                                                    <input type="text" class="qtyValue text-center m-0 xxltxt"
+                                                           value="4">
+                                                    <i class="fas fa-plus d-center increaseQty" style="align-content: center; padding-left: 7px"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right-area d-flex flex-column align-items-end justify-content-between">
+                                    <button type="button" class="end-area">
+                                        <i class="fa-solid fa-trash"></i>
+                                    </button>
+                                    <span class="fs-seven">$300.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-box box-style box-first m-0 p-3 p-sm-6">
+                            <div class="d-flex gap-2 justify-content-between">
+                                <div class="content-box d-flex gap-3 gap-sm-4">
+                                    <div class="icon-box d-inline-flex d-center">
+                                        <img src="assets/images/product-img-1.png" class="max-un" alt="icon">
+                                    </div>
+                                    <div class="info-box d-flex w-100 flex-column justify-content-between">
+                                        <div class="top-area">
+                                            <a href="@Url.Action("PageShopDetails","Home")">
+                                                <h5>Accessories</h5>
+                                            </a>
+                                            <div class="price-area border-0 mt-2 d-flex gap-2 align-items-center">
+                                                <span class="fs-six cur-price">$200.00</span>
+                                                <span class="fs-seven"><del>$300.00</del></span>
+                                            </div>
+                                        </div>
+                                        <div class="quantity-area">
+                                            <div class="d-flex align-items-center">
+                                                <div class="qtySelector py-1 d-inline-flex align-items-center">
+                                                    <i class="fas fa-minus d-center decreaseQty" style="align-content: center; padding-left: 7px"></i>
+                                                    <input type="text" class="qtyValue text-center m-0 xxltxt"
+                                                           value="4">
+                                                    <i class="fas fa-plus d-center increaseQty" style="align-content: center; padding-left: 7px"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right-area d-flex flex-column align-items-end justify-content-between">
+                                    <button type="button" class="end-area">
+                                        <i class="fa-solid fa-trash"></i>
+                                    </button>
+                                    <span class="fs-seven">$300.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="@Url.Action("PageStore","Home")" class="d-flex align-items-center fs-seven gap-1">
+                        <i class="material-symbols-outlined"> chevron_left </i>
+                        Continue Shopping
+                    </a>
+                </div>
+                <div class="col-xl-4 col-md-8 mt-7 mt-xl-0">
+                    <form action="checkout.html" class="checkout-form py-5 px-3">
+                        <h2 class="visible-slowly-bottom mb-4 text-center">Check out</h2>
+                        <div class="main-content py-4 py-sm-8 px-3 px-sm-5">
+                            <ul>
+                                <li class="d-center justify-content-between gap-2 fs-seven">
+                                    <span>2 items</span>
+                                    <span>$900</span>
+                                </li>
+                                <li class="d-center justify-content-between gap-2 fs-seven">
+                                    <span>Shipping</span>
+                                    <span>Free</span>
+                                </li>
+                            </ul>
+                            <div class="promo-code my-6">
+                                <div class="head-area">
+                                    <p>Have a promo code?</p>
+                                </div>
+                                <div class="input-area p-1 d-flex align-items-center justify-content-between">
+                                    <input type="text" class="ps-2" placeholder="Promo Code">
+                                    <div class="btn-area">
+                                        <button class="box-style text-nowrap btn-box">
+                                            <a href="@Url.Action("PageCheckOut","Home")" style="color: black;"> Add</a>
+
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="sub-total py-3">
+                                <li class="d-center justify-content-between gap-2 fs-seven">
+                                    <span>Total (tax incl.)</span>
+                                    <span>$900</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="btn-area text-center mt-6">
+                            <button class="box-style text-nowrap btn-box">
+                                <a href="@Url.Action("PageCheckOut","Home")" style="color: black;"> Proceed to checkout</a>
+
+                            </button>
+                        </div>
+                    </form>
+                    <div class="footer-items mt-5 mt-sm-10 d-grid gap-3">
+                        <p class="d-flex align-items-center gap-3">
+                            <i class="material-symbols-outlined"> shield </i>
+                            Secure payment
+                        </p>
+                        <p class="d-flex align-items-center gap-3">
+                            <i class="material-symbols-outlined"> local_shipping </i>
+                            Instant delivery
+                        </p>
+                        <p class="d-flex align-items-center gap-3">
+                            <i class="material-symbols-outlined"> cached </i>
+                            30-day money back guarantee for unused keys
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Cart Details end -->
+</body>
+</html>

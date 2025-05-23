@@ -384,6 +384,11 @@
     <Content Include="Views\Home\PagePricing.cshtml" />
     <Content Include="Views\Home\PageStore.cshtml" />
     <Content Include="Views\Home\PageAbout.cshtml" />
+    <Content Include="Views\Home\PageShopDetails.cshtml" />
+    <Content Include="Views\Home\PageCart.cshtml" />
+    <Content Include="Views\Home\PageCheckOut.cshtml" />
+    <Content Include="Views\Home\PageCareer.cshtml" />
+    <Content Include="Views\Home\PageCareerDetails.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -1,0 +1,259 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    @{
+        Layout = "~/Views/Shared/_LayoutNavbar.cshtml";
+    }
+</head>
+<body>
+    <!-- Banner-section start -->
+    <section class="banner-section inner-banner position-relative store">
+        <div class="shape-area">
+            <img src="assets/images/abs-items/bubble.png" class="shape-1" alt="icon">
+            <img src="assets/images/abs-items/ellipse-7.png" class="shape-2" alt="icon">
+        </div>
+        <div class="container position-relative">
+            <div class="banner-content row justify-content-between">
+                <div class="col-lg-6 col-md-10">
+                    <div class="main-content">
+                        <h2 class="visible-slowly-bottom display-four mb-4"><span>Check Out</span></h2>
+                        <p class="fs-four">
+                            Please provide your personal information and address for invoicing
+                            purposes, as well as your preferred payment method.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-10 d-grid align-items-end justify-content-end">
+                    <div class="breadcrumb-area position-absolute end-0 bottom-0">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb m-0 py-3 px-8 fs-six d-flex align-items-end justify-content-end">
+                                <li class="breadcrumb-item p-0 m-0"><a href="@Url.Action("PageHome","Home")">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Check Out</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Banner-section end -->
+    <!-- Cart Details start -->
+    <div class="shop-details cart-details">
+        <div class="container border-0 pt-120 pb-120">
+            <div class="row justify-content-between">
+                <div class="col-xl-7 col-lg-7">
+                    <div class="personal-info">
+                        <div class="d-flex flex-wrap py-3 py-sm-4 px-4 px-sm-8 justify-content-between">
+                            <div class="check d-center justify-content-start gap-3">
+                                <i class="fa-solid fa-check"></i>
+                                <h4>Personal Information </h4>
+                            </div>
+                            <a href="javascript:void(0)" class="edit d-center justify-content-start gap-3">
+                                <i class="fa-solid fa-pen"></i>
+                                <p>Edit</p>
+                            </a>
+                        </div>
+                        <div class="address py-3 py-sm-4 px-4 px-sm-8 alt-bg">
+                            <h4>02. Addresses</h4>
+                        </div>
+                        <div class="p-5 p-sm-8">
+                            <p>The selected address will be used as your personal address ( for invoices)</p>
+                            <div class="row mt-5 mt-sm-10">
+                                <div class="col-sm-6">
+                                    <div class="single-input">
+                                        <label for="fname">First Name</label>
+                                        <input type="text" id="fname" placeholder="Enter Your First Name"
+                                               autocomplete="off">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="single-input">
+                                        <label for="lname">First Name</label>
+                                        <input type="text" id="lname" placeholder="Enter Your First Name"
+                                               autocomplete="off">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="single-input">
+                                        <label for="email">Email</label>
+                                        <input type="text" id="email" placeholder="Enter Your Email" autocomplete="off">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="single-input">
+                                        <label for="phone">Phone</label>
+                                        <input type="text" id="phone" placeholder="Enter Your phone number"
+                                               autocomplete="off">
+                                    </div>
+                                </div>
+                                <div class="col-sm-12">
+                                    <div class="single-input">
+                                        <label for="address">Address</label>
+                                        <input type="text" id="address" placeholder="Enter your address"
+                                               autocomplete="off">
+                                    </div>
+                                </div>
+                                <div class="col-sm-12">
+                                    <div class="single-input">
+                                        <label for="address2">Address Line 2</label>
+                                        <input type="text" id="address2" placeholder="Enter your address"
+                                               autocomplete="off">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="single-input">
+                                        <label for="city">City</label>
+                                        <input type="text" id="city" placeholder="Enter Your city" autocomplete="off">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="single-input">
+                                        <label for="state">State</label>
+                                        <select id="state">
+                                            <option value="0">Please choose</option>
+                                            <option value="1">Option One</option>
+                                            <option value="2">Option Two</option>
+                                            <option value="3">Option Three</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="single-input">
+                                        <label for="zip">Zip/ Poster Code</label>
+                                        <input type="text" id="zip" placeholder="Zip/ Poster Code" autocomplete="off">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="single-input">
+                                        <label for="country">Country</label>
+                                        <input type="text" id="country" placeholder="Enter Your Country"
+                                               autocomplete="off">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="address payment py-3 py-sm-4 px-4 px-sm-8">
+                            <h4>03. Payment</h4>
+                        </div>
+                        <div class="p-4 p-sm-8">
+                            <p>The selected your payment option</p>
+                            <div class="radio-radio-item d-grid gap-4 mt-4 mt-sm-6">
+                                <label class="single-radio position-relative d-flex align-items-center px-5 ps-8">
+                                    <b class="text-start d-grid">
+                                        <span>
+                                            Pay with <span>PayPal</span> | It’s simple,easy and more
+                                            secure
+                                        </span>
+                                    </b>
+                                    <input type="radio" name="pricing-select">
+                                    <span class="checkmark start-0"></span>
+                                </label>
+                                <label class="single-radio position-relative d-flex align-items-center px-5 ps-8">
+                                    <b class="text-start d-grid">
+                                        <span>
+                                            Pay with <span>
+                                                Card/Apple Pay/ Google pay/Local payment
+                                                methods
+                                            </span>
+                                        </span>
+                                    </b>
+                                    <input type="radio" name="pricing-select">
+                                    <span class="checkmark start-0"></span>
+                                </label>
+                            </div>
+                            <div class="btn-area mt-6">
+                                <button class="box-style text-nowrap btn-box">
+                                    Continue
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-5 mt-7 mt-lg-0">
+                    <div class="cus-scrollbar">
+                        <form action="#" class="checkout-form py-5 px-3">
+                            <h2 class="visible-slowly-bottom mb-4 text-center">2 Items</h2>
+                            <div class="item-list mb-6">
+                                <div class="content-box d-flex py-4 gap-3 align-items-center">
+                                    <div class="icon-box">
+                                        <img src="assets/images/product-img-2.png" alt="icon">
+                                    </div>
+                                    <div class="info-box">
+                                        <p class="d-flex gap-3">
+                                            Forza Horizon 3 <span>X2</span>
+                                            <span>$150.00</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="content-box d-flex py-4 gap-3 align-items-center">
+                                    <div class="icon-box">
+                                        <img src="assets/images/product-img-3.png" alt="icon">
+                                    </div>
+                                    <div class="info-box">
+                                        <p class="d-flex gap-3">
+                                            Forza Horizon 3 <span>X2</span>
+                                            <span>$150.00</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main-content py-4 py-sm-8 px-3 px-sm-5">
+                                <ul>
+                                    <li class="d-center justify-content-between gap-2 fs-seven">
+                                        <span>2 items</span>
+                                        <span>$900</span>
+                                    </li>
+                                    <li class="d-center justify-content-between gap-2 fs-seven">
+                                        <span>Shipping</span>
+                                        <span>Free</span>
+                                    </li>
+                                </ul>
+                                <div class="promo-code my-6">
+                                    <div class="head-area">
+                                        <p>Have a promo code?</p>
+                                    </div>
+                                    <div class="input-area p-1 d-flex align-items-center justify-content-between">
+                                        <input type="text" class="ps-2" placeholder="Promo Code">
+                                        <div class="btn-area">
+                                            <button class="box-style text-nowrap btn-box">
+                                                Add
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <ul class="sub-total py-3">
+                                    <li class="d-center justify-content-between gap-2 fs-seven">
+                                        <span>Total (tax incl.)</span>
+                                        <span>$900</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </form>
+                        <div class="footer-items mt-5 mt-sm-10 d-grid gap-3">
+                            <p class="d-flex align-items-center gap-3">
+                                <i class="fa-solid fa-shield"></i>
+                                Secure payment
+                            </p>
+                            <p class="d-flex align-items-center gap-3">
+                                <i class="fa-solid fa-truck"></i>
+                                Instant delivery
+                            </p>
+                            <p class="d-flex align-items-center gap-3">
+                                <i class="fa-solid fa-repeat"></i>
+                                30-day money back guarantee for unused keys
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Cart Details end -->
+</body>
+</html>
